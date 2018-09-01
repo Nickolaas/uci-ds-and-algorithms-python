@@ -1,43 +1,5 @@
 debug = False
 
-#
-# Listing 3.14, this means that you must implement all the ADT methods
-# 
-#     isEmpty(), 
-#     addFront(item), 
-#     addRear(item), 
-#     removeFront(item) 
-#     removeRear(item), and 
-#     size()
-# 
-# I have asked you to implement this ADT with a double linked list implementation and add the pop(i) method.
-# 
-# If you redo you assignment and use the following template, fill in your code in the ???
-# the extra code for __str__, dump and main will test your code. 
-# 
-# You can use dq.dump() to see the internal structure of the que at any point in the testing
-#    
-
-# starter code  **** The code below is designed to give you a template to put your code to implement a
-# linked list version of deque, you will see lines designated where you replace your code where the line is.
-# NOTE, the python keyword pass, does nothing except serve as a placeholder for code, they are there so you can
-# work on getting one method at a time working and tested without having syntac errors.
-# when you run this file, it fails righ after it trys to addFront(11)
-# because both addFront(d) and size() have not been written,
-# so these are the first two methods you should write the code for
-
-# picture of nodes in a linked list
-#
-#                      --------   --------   --------
-# self.front  -------> | data |   | data |   | data | <---------- self.rear
-#                      | next |-->| next |-->| next |--> None
-#             None <-- | prev |<--| prev |<--| prev |
-#                      --------   --------    --------
-#                        node0     node1       node2
-#
-# ----------------------------------------------------------------------------------
-# Start of code here:
-
 
 #Nickolas Decker, CS22 Deque Assignment
 
